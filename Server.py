@@ -13,4 +13,5 @@ def callback():
 def home():
     return "M-PESA callback server is running"
 
-app.run(host="0.0.0.0", port=10000)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
